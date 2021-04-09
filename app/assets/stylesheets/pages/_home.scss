@@ -2,95 +2,96 @@
 
 @import "components/banner-homepage";
 
-body {
-height: 100vh;
-
-}
-#homesearch {
-  vertical-align: middle;
-  margin-top: 60px;
+.home-container {
+  margin: auto;
+  width: 1000px;
 }
 
-#homesearch h3 {
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 44px;
-text-align: center;
-
-color: #060303;
+#ruptcare {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 113px;
+  color: #006DBB;
 }
 
-#searchbar {
-  text-align: center;
+.slogan {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
 }
 
-
-.call-to-action-home {
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 1px;
+.proposition-value {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #777777;
 }
 
-.call-to-action-home:hover {
-  color: #fff;
-  text-decoration: none;
+.modules {
+  display: flex;
+  grid-templates-column: 1fr 1fr 1fr;
+  grid-gap: 48px;
 }
 
-#RuptCare {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 0px;
+.module-propositions {
+  background: #FFFFFF;
+  border: 1px solid #50D890;
+  box-sizing: border-box;
+  border-radius: 20px;
 }
 
-
-.btn-home {
-  //position: absolute;
-  //width: 360px;
-  //height: 50px;
-  //left: 678px;
-  //top: 551px;
-
-  //position: relative;
-
-  font-weight: bold;
-
+.module-propositions img {
   align-items: center;
-  user-select: none;
-  text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  transition: all 150ms ease-out;
-  opacity: 0.75;
+  height: 100px;
+  width: 100px;
 }
 
-.btn-open {
-  background-color: #50D890;
-  color: #FFFBFB;
-  font-size: 20px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5), 0 0 0 rgba(0, 0, 0, 0.3) inset;
-
-  width: 360px;
-  height: 50px;
-  font-family: 'Work Sans', sans-serif;
-  padding: 8px;
-  opacity: 0.8;
-  margin-top: 30px;
-
+.module-propositions h1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #006DBB;
 }
 
-.btn-open:active, .btn-open:focus {
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5), 0 4px 8px rgba(0, 0, 0, 0.3) inset;
-  transform: translateY(2px);
+.module-propositions p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
 }
 
-.btn-open:hover {
-	opacity: 1;
-	color: white;
+.testimonies {
+  display: flex;
 }
 
-.h2-home {
-  font-size: 20px;
+.card-testimony {
+  background: #FFFFFF;
+  border: 2px solid #006DBB;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.final-word {
+  background: #006DBB;
+}
+
+.final-word {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
 }
