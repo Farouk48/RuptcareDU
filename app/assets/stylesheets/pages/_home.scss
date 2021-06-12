@@ -7,6 +7,10 @@
   width: 1000px;
 }
 
+.background-home {
+  background: #F4F8FC;
+}
+
 #ruptcare {
   font-family: Work Sans;
   font-style: normal;
@@ -14,18 +18,29 @@
   font-size: 96px;
   line-height: 113px;
   color: #006DBB;
+  text-align: center;
+  padding-top: 48px;
 }
 
 .slogan {
   font-family: Work Sans;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 36px;
   line-height: 42px;
-  color: #000000;
+  color: #006DBB;
 }
 
-.proposition-value {
+.value-proposition h1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #777777;
+}
+
+.value-proposition h2 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: 500;
@@ -35,31 +50,37 @@
 }
 
 .modules {
-  display: flex;
-  grid-templates-column: 1fr 1fr 1fr;
-  grid-gap: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  //grid-gap: 48px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .module-propositions {
-  background: #FFFFFF;
-  border: 1px solid #50D890;
-  box-sizing: border-box;
-  border-radius: 20px;
+    margin: 32px;
+    background: #FFFFFF;
+    border: 1px solid #50D890;
+    padding-inline: 32px;
+    /* padding-top: 30px; */
+    border-radius: 10px;
 }
 
 .module-propositions img {
-  align-items: center;
   height: 100px;
   width: 100px;
+  margin-left: 48px;
+  margin-top: 16px;
+  margin-bottom: 8px
 }
 
 .module-propositions h1 {
   font-family: Work Sans;
   font-style: normal;
-  font-weight: 500;
   font-size: 24px;
   line-height: 36px;
   color: #006DBB;
+  text-align: center;
 }
 
 .module-propositions p {
@@ -70,10 +91,19 @@
   line-height: 19px;
   text-align: center;
   color: #000000;
+  padding-bottom: 24px;
+  padding-top: 16px;
+}
+
+.satisfaction h1 {
+ text-align: center;
 }
 
 .testimonies {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 48px;
+  margin-bottom: 56px;
 }
 
 .card-testimony {
@@ -81,17 +111,31 @@
   border: 2px solid #006DBB;
   box-sizing: border-box;
   border-radius: 20px;
+  padding: 24px;
+  margin: 16px;
 }
 
 .final-word {
   background: #006DBB;
+  padding: 54px;
 }
 
-.final-word {
+.final-word h1 {
   font-family: Work Sans;
   font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
+  font-weight: 400;
+  font-size: 32px;
   line-height: 42px;
   color: #FFFFFF;
+  text-align: center;
+}
+
+.video h2 {
+font-family: Work Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+  color: black;
+  text-align: center;
 }
