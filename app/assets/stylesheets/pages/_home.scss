@@ -22,13 +22,15 @@
   padding-top: 48px;
 }
 
-.slogan {
+.slogan h1 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 24px;
+  line-height: 36px;
   color: #006DBB;
+  text-align: center;
+  padding: 32px;
 }
 
 .value-proposition h1 {
@@ -38,15 +40,31 @@
   font-size: 18px;
   line-height: 21px;
   color: #777777;
+  text-align: center;
+  padding-bottom: 16px;
 }
+
 
 .value-proposition h2 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  color: #777777;
+  font-size: 24px;
+  line-height: 40px;
+  color: #000000;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.value-proposition h3 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
 }
 
 .modules {

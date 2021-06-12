@@ -1,10 +1,10 @@
 .navbar-lewagon {
   justify-content: space-between;
   color: black;
-  height:75px;
+  height:80px;
   background: #FFFFFF;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
-
+  padding-bottom: 12px;
 }
 
 .navbar-lewagon-white {
@@ -33,15 +33,14 @@
 }
 
 .avatar-large {
-	object-fit: cover;
+  object-fit: cover;
   background-size: cover;
   border: 2px solid #FFFBFB;
 }
 
 .nav-link {
-  font-size: 15px;
+  font-size: 18px;
   text-transform: none;
-  font-weight: 600;
   color: black;
   margin-right: 30px;
   //border-right: 1px solid grey;
@@ -57,7 +56,35 @@
   opacity: 0.8;
 }
 
+.btn-connexion {
+  color: #006DBB;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: 500;
+  background: white;
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+}
 
+.btn-connexion:hover {
+  background:#006DBB;
+  color: white;;
+}
+
+.btn-inscription {
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: 500;
+  background: #006DBB;
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+}
+
+.btn-inscription:hover {
+  background: white;
+  color: #006DBB;;
+}
 
 #navbarDropdown {
     width: 50px;
@@ -85,5 +112,10 @@ li a:hover {
 }
 
 .nav-item-home {
-  color: black;
+  margin-inline: 96px;
+}
+
+.nav-item {
+ margin-top: 16px;
+ margin-left: 48px;
 }
