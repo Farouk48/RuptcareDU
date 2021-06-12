@@ -42,15 +42,15 @@
 
           <div class="legend">Rechercher une alternative médicamenteuse :
           </div>
-              <%= form_tag drugs_path, class: "drug-searchbar", method: :get do %>
-                 <%= hidden_field_tag 'patient_id', params[:patient_id] %>
+              <"%= form_tag drugs_path, class: "drug-searchbar", method: :get do %>
+                               <%= hidden_field_tag 'patient_id', params[:patient_id] %>
 
-                <%= text_field_tag :name,
-                  params[:name], class: "input-search-bar", id:"search", placeholder: "Rechercher un médicament..." %>
-              <%= button_tag :submit, class: "btn-search-show-patient" do%>
-                <i class="fas fa-search"></i>
-                <% end %>
-              <% end %>
+                              <%= text_field_tag :name,
+                                params[:name], class: "input-search-bar", id:"search", placeholder: "Rechercher un médicament..." %>
+                            <%= button_tag :submit, class: "btn-search-show-patient" do%>
+                              <i class="fas fa-search"></i>
+                              <% end %>
+                            <% end %>"
       </div>
    </div>
 
