@@ -1,10 +1,10 @@
 .navbar-lewagon {
-  justify-content: space-between;
+  justify-content: center;
   color: black;
   height:80px;
   background: #FFFFFF;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
-  padding-bottom: 12px;
+  //padding-bottom: 12px;
 }
 
 .navbar-lewagon-white {
@@ -111,6 +111,12 @@ li a:hover {
   color: #01418D;
 }
 
+.nav-item-home {
+  margin-inline: 20px;
+}
+
 .nav-item {
- margin-inline: 95px;
+  margin-left: 95px;
+  margin-top: 12px;
+ //margin-left: 95px;
 }
